@@ -1,0 +1,39 @@
+pelicula = {"nombres": {
+    "Spiderman":"tobey",
+    "spiderman":"Andrew",
+    "spiderman":"Tom"},
+    
+    "personajes":[
+        {"personaje1":"tobey"},
+        {"personaje 2": "Tom"},
+        {"personaje3":"Andrew"},
+    ],
+    "empresas patrocinadoras":[
+        {"Marvel":"studios"},
+        {"Sony":"Pictures"},
+        {"disney":"..."},
+    ]
+  }
+print(pelicula)
+
+edad = int(input("Dame tu edad"))
+print(f"tecleaste {edad} años")
+if edad >= 18:
+  print("Eres mayor de edad")
+  print("algo")
+print("otra cosa")
+print("Fin del programa")
+
+CAL = float(input("Dame tu calificación"))
+if CAL > 8:
+  print("aprobado")
+print("Fin del programa")
+
+SUE = float(input("Escribe el sueldo: "))
+AUM = 0 
+MSUE = 0
+
+if SUE < 1000 :
+    AUM = SUE* 0.15
+    MSUE = SUE + AUM
+    print(MSUE)
